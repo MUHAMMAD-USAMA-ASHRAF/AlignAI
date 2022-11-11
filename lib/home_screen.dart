@@ -43,17 +43,18 @@ class _HomeScreenState extends State<HomeScreen> {
           BottomNavigationBarItem(
             backgroundColor: Colors.white,
             icon: Icon(LineAwesomeIcons.universal_access),
-            title: Text('Align'),
+            activeIcon: Text('Align'),
+            //title: Text('Align'),
           ),
           BottomNavigationBarItem(
             backgroundColor: Colors.white,
             icon: Icon(LineAwesomeIcons.burn),
-            title: Text('Workout'),
+            //title: Text('Workout'),
           ),
           BottomNavigationBarItem(
             backgroundColor: Colors.white,
             icon: Icon(LineAwesomeIcons.user),
-            title: Text('Profile'),
+            activeIcon: Text('Profile'),
           ),
         ],
         currentIndex: _selectedIndex,
